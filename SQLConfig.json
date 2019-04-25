@@ -1,0 +1,42 @@
+{
+    "development": {
+        "config_id": "development",
+        "server": "LOC2-SD-POC1",
+        "username": "ASTDev",
+        "password": "Alphaserve@12345",
+        "port": 1433,
+        "database": "ASTDashboard"
+    },
+    "testing": {
+        "config_id": "testing",
+        "server": "LOC2-SD-POC1",
+        "username": "ASTDev",
+        "password": "Alphaserve@12345",
+        "port": 1433,
+        "database": "ASTDashboard"
+    },
+    "staging": {
+        "config_id": "staging",
+        "server": "LOC2-SD-POC1",
+        "username": "ASTDev",
+        "password": "Alphaserve@12345",
+        "port": 1433,
+        "database": "ASTDashboard"
+    },
+    "production": {
+        "config_id": "production",
+        "server": "LOC2-SD-POC1",
+        "username": "ASTDev",
+        "password": "Alphaserve@12345",
+        "port": 1433,
+        "database": "ASTDashboard"
+    },
+    "SQLconfig" :{
+        "user": "${global.gConfig.username}",
+        "password": "${global.gConfig.password}",
+        "server": "${global.gConfig.server}", 
+        "database": "${global.gConfig.database}",
+        "port" : "${global.gConfig.port}"
+       }
+    
+}
